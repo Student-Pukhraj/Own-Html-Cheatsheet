@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 72px;
+    font-size: 1.5rem;
+}
+
+.content {
+    font-family: "Potta One", system-ui;
+}
+
+.pj {
+    font-family: "Potta One", system-ui;
+    position: absolute;
+    right: 8px;
+    top: 30px;
+}
+
+.container {
+    width: 55vw;
+    margin: auto;
+    padding: 32px 0;
+    font-family: "Roboto", system-ui;
+}
+
+.container h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0 12px 5px;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 15px 0 12px 10px;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+    margin: 0 0 0 15px;
+    font-family: "poppins", sans-serif;
+}
+
+.container ul .heading {
+    list-style: none;
+}
+
+.logo {
+    padding: 0 13px;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+
+.scroll {
+    scroll-behavior: auto;
+    height: 300px;
+}
+
+.entity {
+    cursor: help;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 24px;
+    color: rgb(253, 250, 250);
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 45%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.2) translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
