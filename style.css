@@ -12,9 +12,6 @@ nav {
     height: 72px;
     font-size: 1.5rem;
 }
-nav::after {
-   max-width: fit-content;
-}
 .content {
     font-family: "Potta One", system-ui;
 }
