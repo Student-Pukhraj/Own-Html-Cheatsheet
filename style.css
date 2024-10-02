@@ -16,6 +16,11 @@ nav {
     font-family: "Potta One", system-ui;
 }
 
+#smnnp {
+    font-family: "Potta One", system-ui;
+    position: absolute;
+    left: 10px;
+}
 .pj {
     font-family: "Potta One", system-ui;
     position: absolute;
