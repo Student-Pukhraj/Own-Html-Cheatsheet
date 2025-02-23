@@ -4,6 +4,7 @@
 }
 
 nav {
+  max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +13,7 @@ nav {
     height: 72px;
     font-size: 1.5rem;
 }
+
 .content {
     font-family: "Potta One", system-ui;
 }
@@ -21,6 +23,7 @@ nav {
     position: absolute;
     left: 10px;
 }
+
 .pj {
     font-family: "Potta One", system-ui;
     position: absolute;
@@ -100,9 +103,8 @@ p {
 }
 
 .footer .social a {
-    font-size: 24px;
+    font-size: 30px;
     color: white;
-    border: 2px solid orangered;
     width: 40px;
     height: 40px;
     line-height: 42px;
@@ -110,14 +112,11 @@ p {
     text-align: center;
     border-radius: 45%;
     margin: 0 8px;
-    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
     transition: 0.3s ease;
 }
 
 .footer .social a:hover {
     transform: scale(1.2) translateY(-10px);
-    color: orangered;
-    border: 2px solid orangered;
 }
 
 .footer .copyright {
